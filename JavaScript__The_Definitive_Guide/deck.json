@@ -1,0 +1,284 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "95e012fe-3dca-11ec-8639-645aede8853d",
+    "deck_config_uuid": "95e06d8a-3dca-11ec-8639-645aede8853d",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "95e06d8a-3dca-11ec-8639-645aede8853d",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 20
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "JavaScript: The Definitive Guide",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "<span style=\"color: rgb(0, 0, 0);\">Three necessary ingredients for an object to be iterable, and their key characteristics</span>",
+                "<span style=\"color: rgb(0, 0, 0);\">Iterable:&nbsp; Object with a method named Symbol.iterator -&gt; returns the iterator object</span><br style=\"max-width: 100%; color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">Iterator:&nbsp; Object with a next() method, and optionally a return() method</span><br style=\"max-width: 100%; color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">Iteration Result:&nbsp; Object with properties .value and .done<br></span>"
+            ],
+            "guid": "Mdn<0XR-*<",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What can you do with an iterable?",
+                "- for/of loop<br><div>- many built-ins such as Set() will accept any iterable object.</div><div><br></div><div>ES6:</div><div>- ...<div>- destructuring<br>&nbsp; &nbsp; &nbsp;- destructuring in for/of loops</div></div>"
+            ],
+            "guid": "w`eR|QP4UX",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "How do you manually access the iterator stuff?",
+                "<span style=\"color: rgb(0, 0, 0);\">let iterator = myIterableVariable[Symbol.iterator]()</span><br style=\"color: rgb(0, 0, 0);\"><br style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">let result = iterator.next()</span><br style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">result.value</span><br style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">result.done</span>"
+            ],
+            "guid": "y/x3c_@=!%",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter12"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are four general characteristics of Javascript?",
+                "High-level<br>Dynamic<br>Interpreted<br>First-class functions (derived from Scheme)<br><br>"
+            ],
+            "guid": "wJ/8GSrCKe",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Explain the version history of Javascript",
+                "<div>- Before 2009, Javascript had some flaws people didn't like.<br>- Then ES5 came out and it was good and it is widely supported.<br>- ES5 introduced an opt-in \"strict mode\" without the pre-ES5 flaws.</div>- In 2015, ES6 was released, which was a big deal.<br>- Now there are yearly releases named ES2016, ES2017, etc.<br>"
+            ],
+            "guid": "LSjaN4tWho",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Whats the general idea of strict mode and where can you read about it?",
+                "You can't use undeclared stuff, duplicate parameter names, delete stuff you shouldn't, read/write from things that don't let you, etc.<div><br></div><div>w3schools has an excellent summary</div>"
+            ],
+            "guid": "hCMdXP6O5I",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1",
+                "extra"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define the following terms:<br><br>Function<br>Property<div>Statement<div>Operator</div></div>",
+                "<div>Function - A named a parameterized block of JavaScript that you define once and then can invoke over and over.</div>Property - !!!!<div><div>Statement - A bit of JavaScript which has no value but does something, or is a control structure.<br>Operator - Operate on values to produce a new value.&nbsp; Three kinds: arithmetic, relational, logical.</div></div>"
+            ],
+            "guid": "q2P1+]L]4v",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define the following terms:<div><br></div><div>Identifier<br>Reserved Word</div><div>Literal</div>",
+                "Identifier - a name of a constant, variable, property, function, class, loop<div>Reserved Word - an identifier that you can't use because the language uses it</div><div>Literal - a data value that appears directly in a program, e.g. \"hello\", false, 1.2</div>"
+            ],
+            "guid": "l@/uOrG}p.",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the rules for valid identifiers?",
+                "Letters, digits, underscores and dollar signs are allowed, EXCEPT the first character cannot be a digit."
+            ],
+            "guid": "D!DA{=[_d^",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What are the three things you should know about using unicode to write javascript code?",
+                "1.&nbsp; JS is written in unicode, and you can use letters, digits, and ideographs in identifiers.<div>2.&nbsp; You can use unicode escape sequences and JS will interpret them as the characters.</div><div>3.&nbsp; JS does no unicode normalization of its own, so you should be careful if you use non-ascii characters.</div>"
+            ],
+            "guid": "Oc9fJ3Uv0w",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "What is unicode normalization?",
+                "Because some characters have multiple unicode representations (e.g. é has a dedicated character AND it can be a regular \"e\" with the acute accent combining mark), there is a published standard that defines a normalization procedure to convert everything into a canonical form."
+            ],
+            "guid": "bbY8z?f5^M",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When do you not need a semicolon and when do you need a semicolon?",
+                "<div>Semicolons in Javascript are optional and used to separate statements.</div><div><br></div>You do not need a semicolon if:<div>&nbsp; &nbsp; -&nbsp; The program ends or the next token is a closing brace }<br>&nbsp; &nbsp; -&nbsp; There is a line break which javascript interprets as a semicolon (rules for this are on another card)</div><div><br></div><div>You do need a semicolon if:</div><div>&nbsp; &nbsp; -&nbsp; You want multiple statements on one line, e.g.&nbsp; let a = 2;&nbsp; let c = a * 5;<br>&nbsp; &nbsp; -&nbsp; A statement can be interpreted as a continuation of the previous line - usually if it starts with (, [, /, -, +</div><div><br>E.g. JS will interpret this<br>let y = x + f</div><div>(a+b).toString()<br><br>as:</div><div><br></div><div>let y = x + f(a+b).toString()</div><div><br></div><div>A \"defensive semicolon\" may help:</div><div><br></div><div>;(a+b).toString()</div>"
+            ],
+            "guid": "osDte{`Iu3",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When does JS treat a line break as a semicolon?",
+                "When the next line cannot be interpreted as a continuation of the current line, with three exceptions:<div><br></div><div>1. return, continue, break, yield, throw statements will ALWAYS treat a line break as a semicolon</div><div>2. ++ and -- must appear on the same line as the preceding identifier if they are used as postfix operators<br>3. When defining a function with arrow syntax, the arrow must be on the same line as the parameter list.</div>"
+            ],
+            "guid": "G]:7Rg8oW5",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define the following terms:<div><br></div><div>Parameter</div><div>Object</div><div>Method</div><div>Expression</div>",
+                "<div>Parameter - The values you pass in to a function.</div><div>Object - !!!!</div><div>Method - A function assigned to a property of an object</div><div>Expression - A bit of JavaScript which can be evaluated to produce a value but does not do anything</div>"
+            ],
+            "guid": "lo,TL*QvYm",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        }
+    ]
+}

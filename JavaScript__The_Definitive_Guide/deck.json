@@ -116,7 +116,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "<span style=\"color: rgb(0, 0, 0);\">Three necessary ingredients for an object to be iterable, and their key characteristics</span>",
+                "<span style=\"color: rgb(0, 0, 0);\">What are the three necessary ingredients for an object to be iterable, and their key characteristics</span>",
                 "<span style=\"color: rgb(0, 0, 0);\">Iterable:&nbsp; Object with a method named Symbol.iterator -&gt; returns the iterator object</span><br style=\"max-width: 100%; color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">Iterator:&nbsp; Object with a next() method, and optionally a return() method</span><br style=\"max-width: 100%; color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">Iteration Result:&nbsp; Object with properties .value and .done<br></span>"
             ],
             "guid": "Mdn<0XR-*<",
@@ -140,7 +140,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "How do you manually access the iterator stuff?",
+                "How do you manually access the iterator object and iteration result object of an iterable?",
                 "<span style=\"color: rgb(0, 0, 0);\">let iterator = myIterableVariable[Symbol.iterator]()</span><br style=\"color: rgb(0, 0, 0);\"><br style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">let result = iterator.next()</span><br style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">result.value</span><br style=\"color: rgb(0, 0, 0);\"><span style=\"color: rgb(0, 0, 0);\">result.done</span>"
             ],
             "guid": "y/x3c_@=!%",
@@ -157,13 +157,27 @@
             ],
             "guid": "wJ/8GSrCKe",
             "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
-            "tags": []
+            "tags": [
+                "Chapter1"
+            ]
         },
         {
             "__type__": "Note",
             "fields": [
-                "Explain the version history of Javascript",
-                "<div>- Before 2009, Javascript had some flaws people didn't like.<br>- Then ES5 came out and it was good and it is widely supported.<br>- ES5 introduced an opt-in \"strict mode\" without the pre-ES5 flaws.</div>- In 2015, ES6 was released, which was a big deal.<br>- Now there are yearly releases named ES2016, ES2017, etc.<br>"
+                "Explain the pre/post ES5 version history of Javascript",
+                "<div>- Before 2009, Javascript had some flaws people didn't like.<br>- Then ES5 came out and it was good and it is widely supported.<br>- ES5 introduced an opt-in \"strict mode\" without the pre-ES5 flaws.</div>"
+            ],
+            "guid": "LSjaN4tWho",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "List some key features added in ES6 and explain the post ES6 versioning",
+                "In 2015, ES6 was released, which was a big deal.<br>ES6 had classes, let/const, generators, template strings, default parameters, destructuring, arrow functions, and more<br>- Now there are yearly releases named ES2016, ES2017, etc.<br>"
             ],
             "guid": "LSjaN4tWho",
             "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
@@ -187,8 +201,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "Define the following terms:<br><br>Function<br>Property<div>Statement<div>Operator</div></div>",
-                "<div>Function - A named a parameterized block of JavaScript that you define once and then can invoke over and over.</div>Property - !!!!<div><div>Statement - A bit of JavaScript which has no value but does something, or is a control structure.<br>Operator - Operate on values to produce a new value.&nbsp; Three kinds: arithmetic, relational, logical.</div></div>"
+                "Define \"Function\"",
+                "<div>A named a parameterized block of JavaScript that you define once and then can invoke over and over.  Editor's note:  This is the 'chapter 1' version of this card.</div>"
             ],
             "guid": "q2P1+]L]4v",
             "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
@@ -199,8 +213,68 @@
         {
             "__type__": "Note",
             "fields": [
-                "Define the following terms:<div><br></div><div>Identifier<br>Reserved Word</div><div>Literal</div>",
-                "Identifier - a name of a constant, variable, property, function, class, loop<div>Reserved Word - an identifier that you can't use because the language uses it</div><div>Literal - a data value that appears directly in a program, e.g. \"hello\", false, 1.2</div>"
+                "Define \"Property\"",
+                "<div>!!!!</div>"
+            ],
+            "guid": "q2P1+]L]4v",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Statement\"",
+                "<div>Statement - A bit of JavaScript which has no value but does something, or is a control structure.</div>"
+            ],
+            "guid": "q2P1+]L]4v",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Operator\" and list the categories of operators",
+                "<div>Something that operates on values to produce a new value.&nbsp; Three kinds: arithmetic, relational, logical.</div>"
+            ],
+            "guid": "q2P1+]L]4v",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Identifier\"",
+                "Identifier - a name of a constant, variable, property, function, class, loop"
+            ],
+            "guid": "l@/uOrG}p.",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Reserved Word\"",
+                "Reserved Word - an identifier that you can't use because the language uses it</div><"
+            ],
+            "guid": "l@/uOrG}p.",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Literal\"",
+                "<div>Literal - a data value that appears directly in a program, e.g. \"hello\", false, 1.2</div>"
             ],
             "guid": "l@/uOrG}p.",
             "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
@@ -247,8 +321,20 @@
         {
             "__type__": "Note",
             "fields": [
-                "When do you not need a semicolon and when do you need a semicolon?",
-                "<div>Semicolons in Javascript are optional and used to separate statements.</div><div><br></div>You do not need a semicolon if:<div>&nbsp; &nbsp; -&nbsp; The program ends or the next token is a closing brace }<br>&nbsp; &nbsp; -&nbsp; There is a line break which javascript interprets as a semicolon (rules for this are on another card)</div><div><br></div><div>You do need a semicolon if:</div><div>&nbsp; &nbsp; -&nbsp; You want multiple statements on one line, e.g.&nbsp; let a = 2;&nbsp; let c = a * 5;<br>&nbsp; &nbsp; -&nbsp; A statement can be interpreted as a continuation of the previous line - usually if it starts with (, [, /, -, +</div><div><br>E.g. JS will interpret this<br>let y = x + f</div><div>(a+b).toString()<br><br>as:</div><div><br></div><div>let y = x + f(a+b).toString()</div><div><br></div><div>A \"defensive semicolon\" may help:</div><div><br></div><div>;(a+b).toString()</div>"
+                "When do you need a semicolon?",
+                "<div>&nbsp; &nbsp; -&nbsp; You want multiple statements on one line, e.g.&nbsp; let a = 2;&nbsp; let c = a * 5;<br>&nbsp; &nbsp; -&nbsp; A statement can be interpreted as a continuation of the previous line - usually if it starts with (, [, /, -, +</div><div><br>E.g. JS will interpret this<br>let y = x + f</div><div>(a+b).toString()<br><br>as:</div><div><br></div><div>let y = x + f(a+b).toString()</div><div><br></div><div>A \"defensive semicolon\" may help:</div><div><br></div><div>;(a+b).toString()</div>"
+            ],
+            "guid": "osDte{`Iu3",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter2"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "When do you not need a semicolon?",
+                "<div>Semicolons in Javascript are optional and used to separate statements.</div><div><br></div>You do not need a semicolon if:<div>&nbsp; &nbsp; -&nbsp; The program ends or the next token is a closing brace }<br>&nbsp; &nbsp; -&nbsp; There is a line break which javascript interprets as a semicolon (rules for this are on another card)</div>"
             ],
             "guid": "osDte{`Iu3",
             "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
@@ -271,8 +357,44 @@
         {
             "__type__": "Note",
             "fields": [
-                "Define the following terms:<div><br></div><div>Parameter</div><div>Object</div><div>Method</div><div>Expression</div>",
-                "<div>Parameter - The values you pass in to a function.</div><div>Object - !!!!</div><div>Method - A function assigned to a property of an object</div><div>Expression - A bit of JavaScript which can be evaluated to produce a value but does not do anything</div>"
+                "Define\"Parameter\"",
+                "<div>Parameter - A value you pass in to a function.</div>"
+            ],
+            "guid": "lo,TL*QvYm",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Object\"",
+                "<div>!!!!</div>"
+            ],
+            "guid": "lo,TL*QvYm",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Method\"",
+                "<div>Method - A function assigned to a property of an object</div>"
+            ],
+            "guid": "lo,TL*QvYm",
+            "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
+            "tags": [
+                "Chapter1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Define \"Expression\"",
+                "<div>Expression - A bit of JavaScript which can be evaluated to produce a value but does not do anything</div>"
             ],
             "guid": "lo,TL*QvYm",
             "note_model_uuid": "95e1236a-3dca-11ec-8639-645aede8853d",
